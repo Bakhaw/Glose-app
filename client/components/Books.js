@@ -33,7 +33,7 @@ class Book extends Component {
       {this.state.data.length > 0 &&
         <ul className="books-container">
           {this.state.data[0].modules[1].books.map((book, index) =>
-            <li key={index} className="book">
+            <li key={index} className="book col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <img src={book.image} alt="book-cover"/>
                 <p className="title">{book.title}</p>
                 {book.authors[0] &&

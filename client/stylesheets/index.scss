@@ -43,7 +43,6 @@ header {
     }
 
     & .book {
-      width: 20%;
       margin-bottom: 30px;
           & .title {
             color: #333;
@@ -54,6 +53,7 @@ header {
             white-space: nowrap;
             font-weight: 700;
             font-family: 'Merriweather', serif;
+            margin-top: 15px;
           }
           & .subtitle {
             color: #333;
