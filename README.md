@@ -13,10 +13,22 @@ $ cd Glose-app/
 ```
 
 ```
+$ npm install
+```
+
+#### or
+
+```
 $ yarn install
 ```
 
 ### Start the project with
+
+```
+$ npm start
+```
+
+#### or
 
 ```
 $ yarn start
