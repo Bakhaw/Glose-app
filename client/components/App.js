@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Header from './Header';
-import Books from './Books';
+import React, { Component } from 'react'
+import Header from './Header'
+import Books from './Books'
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import '../stylesheets/index.scss';
