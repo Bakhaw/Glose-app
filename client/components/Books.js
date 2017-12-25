@@ -43,6 +43,7 @@ class Book extends Component {
   }
 }
 
+// Connecting our App to Redux
 const mapStateToProps = (state) => {
   return {
     books: state
