@@ -17,17 +17,17 @@ class Book extends Component {
     return (
       <div>
       {/* Before the data is charged */}
-      {this.props.books.books.length === 0 &&
+      {this.props.data.books.length === 0 &&
         <div className="loading">
           <CircularProgress color="black" />
         </div>
       }
 
       {/* When the data is charged */}
-      {this.props.books.books.length > 0 &&
+      {this.props.data.books.length > 0 &&
         <ul className="books-container">
-        {console.log(this.props.books.books)}
-          {this.props.books.books.map((book, index) =>
+        {console.log(this.props.data.books)}
+          {this.props.data.books.map((book, index) =>
             <li key={index} className="book col-lg-3 col-md-6 col-sm-6 col-xs-12">
               <img src={book.image} alt="book-cover"/>
                 <p className="title">{book.title}</p>
@@ -46,7 +46,7 @@ class Book extends Component {
 // Connecting our App to Redux
 const mapStateToProps = (state) => {
   return {
-    books: state
+    data: state
   }
 }
 
