@@ -13,13 +13,13 @@ $ cd Glose-app/
 ```
 
 ```
-$ yarn install or $ npm install
+$ yarn install / $ npm install
 ```
 
 ### Start the project with
 
 ```
-$ yarn start or $ npm start
+$ yarn start / $ npm start
 ```
 
 ### Finally, visit localhost:3000 if you're not redirected
